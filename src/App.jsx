@@ -34,14 +34,18 @@ function App() {
         <Card name='Khaing7' age={24} email='minthetkhaing@gmai.com' isEmployed={true} imageName='29'/>
       </div>
       <div className="projects">
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
+        <h2 className='projects-title'>Begineer Projects</h2>
+        <div className='btn-gp'>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+          <Button/>
+        </div>
+
       </div>
       <Footer/>
     </>
