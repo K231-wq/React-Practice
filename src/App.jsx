@@ -6,8 +6,8 @@ import Card from './components/card';
 import Button from './components/Button';
 import Footer from './Footer';
 
-import './css/Header.css'
-
+import './css/Header.css';
+import './css/project.css';
 function App() {
 
   return (
@@ -34,6 +34,13 @@ function App() {
         <Card name='Khaing7' age={24} email='minthetkhaing@gmai.com' isEmployed={true} imageName='29'/>
       </div>
       <div className="projects">
+        <Button/>
+        <Button/>
+        <Button/>
+        <Button/>
+        <Button/>
+        <Button/>
+        <Button/>
         <Button/>
       </div>
       <Footer/>

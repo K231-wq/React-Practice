@@ -1,0 +1,8 @@
+.projects{
+    background: linear-gradient(120deg, yellow, green);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
