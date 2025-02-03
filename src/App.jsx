@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './Header';
 import Center from './Center';
 import Card from './components/card';
+import Button from './components/Button';
 import Footer from './Footer';
 
 import './css/Header.css'
@@ -31,6 +32,9 @@ function App() {
         <Card name='Khaing8' age={25} email='minthetkhaing@gmai.com' isEmployed={false} imageName='25'/>
         <Card name='Khaing6' age={23} email='minthetkhaing@gmai.com' isEmployed={false} imageName='26'/>
         <Card name='Khaing7' age={24} email='minthetkhaing@gmai.com' isEmployed={true} imageName='29'/>
+      </div>
+      <div className="projects">
+        <Button/>
       </div>
       <Footer/>
     </>
