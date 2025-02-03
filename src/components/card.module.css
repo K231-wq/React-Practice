@@ -1,0 +1,32 @@
+.card{
+    max-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: start;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(124, 189, 255, 0.913);
+    box-shadow: 10px 10px 20px grey;
+    align-items: center;
+    padding: 10px;
+}
+.image{
+    max-width: 150px;
+    height: auto;    
+}
+.img{
+    width: 100%;
+    border-radius: 50px;
+}
+.card_details{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
