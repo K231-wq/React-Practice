@@ -36,14 +36,8 @@ function App() {
       <div className="projects">
         <h2 className='projects-title'>Begineer Projects</h2>
         <div className='btn-gp'>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
+          <Button url={'index2'} name={'Props Pratices'}/>
+
         </div>
 
       </div>
