@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import ReactDom from 'react-dom';
 
 import P2 from "./P2";
 

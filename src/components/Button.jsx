@@ -5,13 +5,13 @@ function Button({
     url = "index",
     name = "main"
 }){
-    const handleClick = () => { 
-        console.log("Hello");
+    const handleClick = (e) => { 
+        e.target.innerHtml = "Clicked 😀";
         window.location.href = `../../${url}.html`;
     };
     return (
     <>
-        <button onClick={handleClick} className={style.button}>{name}</button>
+        <button onClick={(e) => handleClick(e)} className={style.button}>{name}</button>
     </>);
 }
 Button.prototype = {
