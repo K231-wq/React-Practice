@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container1{
+    width: 600px;
+    margin: 10px auto;
+    background-color: rgb(29, 135, 135);
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-style: italic;
+    border-radius: 10px;
+}
+.inputContainer1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.inputContainer1 > input{
+    padding: 5px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(61, 56, 56);
+}
+.container2{
+    width: 500px;
+    margin: 10px auto;
+    background-color: navy;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container2-display{
+    width: 300px;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(185, 119, 38);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.container2-display > li{
+    padding: 4px;
+    cursor: pointer;
+}
+.container2-display > li:hover{
+    background-color: rgb(156, 105, 9);
+}
+.inputContainer2{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    column-gap: 4px;
+    align-items: center;
+}
+.inputContainer2 > input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.inputContainer2 > button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.todoList{
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: rgb(93, 44, 139);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey, 0 10px 10px rgb(105, 103, 103);
+}
+
+.todo-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+}
+.todo-input > button{
+    padding: 5px 20px;
+    color: white;
+    background-color: rgb(11, 161, 14);
+    border: none;
+    border-radius: 5px 40px 20px 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.24s ease-in-out;
+}
+.todo-input > button:hover{
+    background-color: green;
+}
+.todo-input > input{
+    width: 300px;
+    padding: 5px 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border: none;
+    border-radius: 50px 5px 5px 20px;
+    color: black;
+}
+.todo-display{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: start;
+    align-items: center;
+    row-gap: 10px;
+    list-style-type: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+.todo-display > li{
+    width: 100%;
+    background-color: rgb(34, 34, 158);
+    box-shadow: 10px 10px 20px hsl(248, 69%, 21%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.todo-display > li:hover{
+    background-color: navy;
+}
+.todo-display > li > button{
+    padding: 5px 10px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.deleteBtn{
+    color: white;
+    background-color: rgb(158, 43, 43);
+    transition: background-color 0.24s ease-in-out;
+    cursor: pointer;
+}
+.deleteBtn:hover{
+    background-color: red;
+}
+.upBtn, .downBtn{
+    background-color: rgb(29, 29, 86);
+    box-shadow: 5px 5px 10px rgb(28, 17, 86);
+    transition: background-color 0.24s ease-in-out;
+    cursor: pointer;
+}
+.upBtn:hover, .downBtn:hover{
+    background-color: rgb(36, 36, 150);
+}

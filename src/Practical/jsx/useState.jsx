@@ -40,7 +40,7 @@ function UseMethod(){
     let [color, setColor] = useState('#ffffff');
 
     function handleColorChange(e){
-        setColor((c) => e.target.value);
+        setColor(e.target.value);
     }
     return(
     <>
